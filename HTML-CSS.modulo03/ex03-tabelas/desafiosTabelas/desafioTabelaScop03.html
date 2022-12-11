@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tabela</title>
+        <link rel="stylesheet" href="tabela03.css">
+    </head>
+
+    <body>
+        <h1>Exercício de Tabela 03</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2" scope="col">Área</th>
+                    <th rowspan="2" scope="col">Disciplina</th>
+                    <th colspan="2" scope="colgroup">Notas</th>
+                    <th rowspan="2" scope="col">Média</th>
+                </tr>
+                <tr>
+                    <th scope="col">Nota 1</th>
+                    <th scope="col">Nota 2</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th rowspan="4" scope="rowgroup">Exatas</th>
+                    <td>Matemática</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+
+
+                </tr>
+                <tr>
+                    <td>Física</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                </tr>
+                <tr>
+                    <td>Química</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                </tr>
+                <tr>
+                    <td>Biologia</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                </tr>
+                <tr class="averages">
+                    <th colspan="4" scope="col">Médias Exatas</th>
+                    <td class="num">0.0</td>
+                </tr>
+                <tr>
+                    <th rowspan="2" scope="colgroup">Humanas </th>
+                    <td>História</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                </tr>
+                <tr>
+                    <td>Geografia</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                </tr>
+                <tr class="averages">
+                    <th colspan="4" scope="col">Médias Humanas</th>
+                    <td class="num">0.0</td>
+                </tr>
+            <tfoot>
+                <th colspan="5" scope="row"><a href="https://github.com/zLey-Santos" target="_blank"
+                        rel="noopener noreferrer"> Criado Por zLey</a></th>
+            </tfoot>
+
+            </tbody>
+        </table>
+    </body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinamica <h1>
+        <p>Tente abrir este site em vários dispositivos diferentes ou simplismente aumente seu navegador </p>
+
+        <picture>
+            <!-- sempre na ordem  acima na sequencia de P-N-G -->
+            <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="imagem flexsível">
+        </picture>
+
+
+        <h1>Produzindo Áudio</h1>
+        <p>Vamos aprender a reproduzir áudio em HTML5</p>
+        <audio preload="metadata" autoplay controls loop>
+            <source src="midia/angel.mp3" type="audio/mpeg">
+            <source src="midia/angel.ogg" type="audio/ogg">
+            <source src="midia/angel.wav" type="audio/wav">
+            <p>Infelizmente seu navegador não reproduz áudio.
+                <a href="midia/angel.mp3">Clique aqui para baixar o arquivo MP3.</a></p>
+        </audio>
+        
+        <!-- tipos de videos aceitos pelo navegadores m4v\ mp4\ ogv\ web.-->
+        <!-- existes alguns parametros  prereload seleciona se audio vai abrir altomaticamente ou se apenas se o usuario clikar-->
+        <!-- existe alguns padroes para que funcione em alguns navegadores MP3(MPEG) OGG e WAV (WAV é pesadissimo )-->
+
+        
+        <!--<audio src="midia/angel.mp3" controls autoplay></audio>-->
+</body>
+</html>

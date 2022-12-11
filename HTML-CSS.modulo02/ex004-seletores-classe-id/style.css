@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*
+    tudo id em HTML em CSS se usa # para id único 
+    tudo class em HTML em css se usa . pode ser usado em mais seletores 
+*/
+
+
+body{
+    background-color:#d6fde9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color:#1e402f;
+}
+
+h1#principal{
+    text-align: center;
+    background-color:#3c805e;
+    color: white;
+}
+
+h2{
+    color: #3c805e;
+}
+.basico{
+ color: #3c805e;
+ font-weight: bold;
+}
+.intermediario{
+ color: #76803c;
+}
+.avancado{
+color: #803c3c;
+}

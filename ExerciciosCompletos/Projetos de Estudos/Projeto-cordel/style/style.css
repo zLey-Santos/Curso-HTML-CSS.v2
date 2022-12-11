@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --font-Padrão: Verdana, Geneva, Tahoma, sans-serif;
+    --font-Conteúdo: 'Sriracha', cursive;
+    --font-Titulo: 'Passion One', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--font-Padrão);
+}
+
+header, footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header>h1 {
+    font-family: var(--font-Titulo);
+    padding: 50px;
+    font-variant: small-caps;
+    font-size: 5vw;
+    margin: -25px;
+    /* text-transform: uppercase;  letras maiúsculas */
+}
+
+header>p {
+    padding-bottom: 30px;
+}
+
+header a, footer {
+    color: rgb(250, 231, 231);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+section {
+    font-family: var(--font-Conteúdo);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+
+
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.74);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem>p {
+    padding: 10px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.568);
+    border-radius: 5%;
+    text-shadow: 2px 2px 0px black;
+
+}
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

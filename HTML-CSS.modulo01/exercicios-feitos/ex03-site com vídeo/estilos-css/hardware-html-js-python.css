@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(44, 44, 44);
+}
+
+p,h1,h3{
+    font-size: 25pt;
+    color: rgb(212, 231, 248);
+    text-align: center;
+    list-style: none;
+}
+
+a{
+    color: rgb(141, 141, 199);
+}

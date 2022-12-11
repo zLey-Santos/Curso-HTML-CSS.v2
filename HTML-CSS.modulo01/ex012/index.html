@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedando localmenate</h1>
+    <p>Este vídeo está hospedando no meu próprio servidor.</p>
+
+    <video width="560" poster="imagem/limao-foto.jpg" controls autoplay loop>
+      <source src="midia/limao-na-agua.mp4" type="video/mp4"> 
+      <source src="midia/Limao-Na-Agua.webm" type="video/mp4"> 
+      <source src="midia/Limao-Na-Agua.m4v" type="video/webm"> -->
+      <source src="midia/Limao-Na-Agua.ogv" type="videos/ogg"> 
+      <p>Seu navegador não tem compartibilidade com reprodução de vídeo.</p> 
+    </video>
+
+    <h1> Inserindo vídeo do youtube</h1> <!-- nesse modo podemos usar videos sem ultilizar dados-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tjZQnk5j6Zo?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos do vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/743190889?h=343212dc82&loop=1&title=0&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+</body>
+</html>
+
+
+<!--(controls) para aparecer os controles para o play 
+(poster ) puxa uma imagens para baner (width) tamanho em ingles -->
+
+<!-- modo video pode ser um problema de consumo de dados e pessar no bolso do clinte -->
