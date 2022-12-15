@@ -15,17 +15,38 @@
     </head>
 
     <body>
+        <!-- 
+            Tamanho padrão do iframe 300 x 150px 
+            frameborder so aceita 0 ou 1 
+            para evitar rolarem de 
+            scrolling aceita os parâmetros 
+            scrolling"yes" "no" "auto"
+        -->
         <h1>Testando o uso de iframe</h1>
         <p>
             Acessando o site do
-            <iframe src="https://www.instagram.com" frameborder="0"></iframe>
+            <iframe src="https://www.instagram.com" frameborder="0">
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            </iframe>
             curso em video para aprender a programar.
         </p>
 
         <p>
             O site do
-            <iframe src="https://www.google.com" frameborder="0"></iframe>
-            Google também é muito legal.
+            <iframe src="https://www.google.com" frameborder="0">
+                <a href="https://www.google.com" target="_blank">Google</a>
+            </iframe>
+            Google também é muito legal, pena que nâo funciona dentro do iframe.
+        </p>
+
+        <p>
+            O repositório do Guanabara
+            <iframe src="https://gustavoguanabara.github.io/" frameborder="0">
+                <a href="https://gustavoguanabara.github.io/" target="_blank">
+                    github
+                </a>
+            </iframe>
+            também é bem legal!
         </p>
     </body>
 
